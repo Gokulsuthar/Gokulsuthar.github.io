@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*,
+*:before,
+*:after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+background-color:rgba(242, 246, 255, 1);
+}
+/* .background .shape{
+height: 200px;
+width: 200px;
+position: absolute;
+border-radius: 50%;
+} */
+/* .shape:first-child{
+background: linear-gradient(
+  #1845ad,
+  #23a2f6
+);
+left: -80px;
+top: -80px;
+}
+.shape:last-child{
+background: linear-gradient(
+  to right,
+  #ff512f,
+  #f09819
+);
+right: -30px;
+bottom: -80px;
+} */
+form{
+height: auto;
+width: 450px;
+background-color: white;
+position: absolute;
+transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;
+border-radius: 10px;
+backdrop-filter: blur(10px);
+filter: drop-shadow(0 0.1rem 0.3rem rgba(0, 0, 0, 0.05));
+padding: 30px 60px 20px 60px;
+}
+
+form h3{
+font-size: 32px;
+font-weight: 600;
+line-height: 42px;
+text-align: center;
+color: rgba(49, 80, 125, 1);
+font-family: 'Lato', sans-serif;
+}
+
+form h5{
+font-size: 15px;
+font-weight: 400;
+text-align: center;
+margin-top: 10px;
+color: rgba(49, 80, 125, 0.46);
+font-family: 'Lato', sans-serif;
+}
+
+form h4{
+font-size: 15px;
+font-weight: 400;
+text-align: center;
+margin-top: 10px;
+color: red;
+font-family: 'Lato', sans-serif;
+}
+
+#register-redirect {
+font-size: 15px;
+font-weight: 400;
+text-align: center;
+margin-top: 550px;
+color: rgba(49, 80, 125, 0.46);
+font-family: 'Lato', sans-serif;
+}
+
+input {
+display: block;
+height: 50px;
+width: 100%;
+padding: 0 30px;
+font-size: 14px;
+border: 4px solid rgba(49, 80, 125, 0.06);
+border-radius: 7px;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+outline: none;
+box-sizing: border-box;
+}
+
+button{
+margin: 20px 0px 20px 0px;
+width: 100%;
+height: 50px;
+background-color: rgba(38, 127, 255, 1);
+color: white;
+font-size: 18px;
+font-weight: 400;
+border-radius: 7px;
+cursor: pointer;
+border: 4px solid rgba(49, 80, 125, 0.06);
+border-radius: 7px;
+font-family: 'Lato', sans-serif;
+}
+
+.email {
+position: relative;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+    
+.email i{
+position: absolute;
+left: 15px;
+top: 15px;
+color: rgba(38, 127, 255, 1);
+}
+    
+.password {
+  position: relative;
+}
+    
+.password i{
+position: absolute;
+left: 15px;
+top: 15px;
+color: rgba(38, 127, 255, 1);
+}
+
+a {
+text-decoration: none;
+color: rgba(49, 80, 125, 0.46);
+}
+
+#forgot-pass {
+font-size: 15px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;
+text-decoration: none;
+color: rgba(49, 80, 125, 0.46);
+font-family: 'Lato', sans-serif;
+}
+
+::placeholder {
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+font-size: 13px;
+color: rgba(49, 80, 125, 1);
+}

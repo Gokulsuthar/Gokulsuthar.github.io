@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Design by foolishdeveloper.com -->
+    <title>LOGIN | TASKMANGER</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./login.css">
+    <!--Stylesheet-->
+    <style media="screen"></style>
+</head>
+<body>
+    <form>
+        <h3>Login</h3>
+        <h5>Enter your credentials to access your account</h5>
+        <h4 id="flash-msg">Invalid email or password!</h4>
+        <div class="email">
+            <input type="text" placeholder="Enter your email" id="username">
+            <i class="fa fa-user icon"></i>
+        </div>
+        <div class="password">
+            <input type="password" placeholder="Enter your password" id="password">
+            <i class="fa fa-lock icon"></i>
+        </div>
+
+        <button>Sign In</button>
+        <h5 id="forgot-pass"><a href="">Forgot password?</a></h5>
+    </form>
+    <h5 id="register-redirect">Not a member yet? <a href="">Register</a></h5>
+</body>
+<script> 
+document.getElementById("flash-msg").innerHTML = ""
+    // setTimeout(() => {
+    //     document.getElementById("flash-msg").innerHTML = "Invalid email or password!"
+    // }, 3000);
+</script>
+</html>
